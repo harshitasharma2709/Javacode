@@ -80,12 +80,12 @@
 
 import java.util.*;
 
-public class Main1 {    
+public class Main1{    
      public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
         int a = sc.nextInt();
         int b = sc.nextInt();
-        System.out.println(Byte.MIN_VALUE + " to " + Byte.MAX_VALUE);
+        System.out.println("Range" + Byte.MIN_VALUE + " to " + Byte.MAX_VALUE);
     }
 }
